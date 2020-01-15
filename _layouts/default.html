@@ -18,10 +18,18 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <style>
+      .mainlogo-link {
+        color: #ffffff
+      }
+      .mainlogo-link:hover {
+        text-decoration: none
+      }
+    </style>
   </head>
   <body>
     <header class="page-header" role="banner">
-	    <h1 class="project-name"><a href="https://ike-dai.github.io/logcrow-doc/">LogCrow</a></h1>
+	    <h1 class="project-name"><a class="mainlogo-link" href="https://ike-dai.github.io/logcrow-doc/">LogCrow</a></h1>
       <h2 class="project-tagline">LogCrow documents</h2>
       {% if site.github.is_project_page %}
         <a href="https://logcrow.firebaseapp.com" class="btn">Go to LogCrow</a>
